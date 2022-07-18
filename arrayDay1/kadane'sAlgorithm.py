@@ -8,3 +8,6 @@ def maxSubArray(self, nums: List[int]) -> int:
         elif currentMax < 0:
             currentMax = 0
     return maximum
+
+# Time Complexity = O(N)
+# Space Complexity = O(1)
